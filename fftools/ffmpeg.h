@@ -419,6 +419,9 @@ typedef struct InputFile {
     int joined;                 /* the thread has been joined */
     int thread_queue_size;      /* maximum number of queued packets */
 #endif
+
+    int64_t ff_timestamp_monotonicity_offset;
+
 } InputFile;
 
 enum forced_keyframes_const {
