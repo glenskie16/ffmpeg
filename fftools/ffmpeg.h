@@ -584,6 +584,9 @@ extern float audio_drift_threshold;
 extern float dts_delta_threshold;
 extern float dts_error_threshold;
 
+extern int dts_monotonicity_threshold;
+extern int force_dts_monotonicity; 
+
 extern int audio_volume;
 extern int audio_sync_method;
 extern int video_sync_method;
